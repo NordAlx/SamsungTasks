@@ -1,9 +1,9 @@
 public class Unit {
-    protected String name;
-    public Unit(String name) {
-        this.name = name;
-        Game.countOfUnits++;
+    Wizard wizard;
+    public Unit(String name){
+        if (name == "W")
     }
+    protected String name;
     protected int health = 100;
     protected int defense = 100;
     protected int power = 10;
